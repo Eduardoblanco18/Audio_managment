@@ -1,17 +1,17 @@
 package br.com.minhasmusicas.modelos;
 
 public class Audio {
-    private String name;
+    private String title;
     private int totalOfReproductions;
     private int totalOfLikes;
     private int classification;
 
-    public String getName() {
-        return name;
+    public String getTitle() {
+        return title;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public int getTotalOfReproductions() {
@@ -27,10 +27,10 @@ public class Audio {
     }
 
     public void like(){
-        totalOfLikes ++;
+        this.totalOfLikes ++;
     }
 
     public void reproduce(){
-        totalOfReproductions++;
+        this.totalOfReproductions++;
     }
 }

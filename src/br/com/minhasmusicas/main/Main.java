@@ -1,6 +1,7 @@
 package br.com.minhasmusicas.main;
 
 import br.com.minhasmusicas.models.Music;
+import br.com.minhasmusicas.models.MyFavorites;
 import br.com.minhasmusicas.models.Podcast;
 
 public class Main {
@@ -28,5 +29,9 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             myPodcast.like();
         }
+
+        MyFavorites favorites = new MyFavorites();
+        favorites.include(myPodcast);
+        favorites.include(myMusic);
     }
 }

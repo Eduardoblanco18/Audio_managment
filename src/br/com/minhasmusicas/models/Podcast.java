@@ -1,4 +1,4 @@
-package br.com.minhasmusicas.modelos;
+package br.com.minhasmusicas.models;
 
 public class Podcast extends Audio{
     private String host;

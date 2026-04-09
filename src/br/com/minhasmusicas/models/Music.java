@@ -1,4 +1,4 @@
-package br.com.minhasmusicas.modelos;
+package br.com.minhasmusicas.models;
 
 public class Music extends Audio{
     private String album;

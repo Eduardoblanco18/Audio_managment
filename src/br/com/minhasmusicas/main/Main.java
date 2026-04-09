@@ -3,7 +3,7 @@ package br.com.minhasmusicas.main;
 import br.com.minhasmusicas.models.Music;
 import br.com.minhasmusicas.models.Podcast;
 
-public class Principal {
+public class Main {
     public static void main(String[] args) {
         Music myMusic = new Music();
         myMusic.setTitle("Bring Me To Life");
